@@ -1,0 +1,17 @@
+{
+  "author": "jitsi.org",
+  "dependencies": {
+    "nan": "2.14.0"
+  },
+  "description": "NodeRT wrapper for windows.storage.streams API",
+  "gypfile": true,
+  "homepage": "https://github.com/jitsi/winrt-libs",
+  "license": "Apache-2.0",
+  "main": "lib/main.js",
+  "name": "@jitsi/windows.storage.streams",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jitsi/winrt-libs.git"
+  },
+  "version": "0.1.0"
+}

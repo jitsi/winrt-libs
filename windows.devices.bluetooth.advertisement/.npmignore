@@ -1,0 +1,6 @@
+*.vcxproj
+*.filters
+*.user
+test
+binding.gyp
+common.gypi
