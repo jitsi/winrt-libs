@@ -52,8 +52,8 @@
             "AdditionalUsingDirectories": [
               "%ProgramFiles(x86)%/Microsoft Visual Studio 14.0/VC/lib/store/references",
               "%ProgramFiles%/Microsoft Visual Studio 14.0/VC/lib/store/references",
-              "%ProgramFiles(x86)%/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/lib/x86/store/references",
-              "%ProgramFiles%/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/lib/x86/store/references"
+              "%ProgramFiles(x86)%/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/lib/x86/store/references",
+              "%ProgramFiles%/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/lib/x86/store/references"
             ]
           }
         }

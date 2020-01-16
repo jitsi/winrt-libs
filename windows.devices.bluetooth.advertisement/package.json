@@ -2,7 +2,7 @@
   "author": "jitsi.org",
   "dependencies": {
     "nan": "2.14.0",
-    "@jitsi/windows.storage.streams": "0.1.0"
+    "@jitsi/windows.storage.streams": "0.1.2"
   },
   "description": "NodeRT wrapper for windows.devices.bluetooth.advertisement API",
   "gypfile": true,
@@ -14,5 +14,5 @@
     "type": "git",
     "url": "git@github.com:jitsi/winrt-libs.git"
   },
-  "version": "0.1.0"
+  "version": "0.1.2"
 }
