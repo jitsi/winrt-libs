@@ -3,5 +3,4 @@
 *.tgz
 *.user
 test
-binding.gyp
-common.gypi
+build

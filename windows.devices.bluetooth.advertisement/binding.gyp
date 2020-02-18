@@ -1,5 +1,7 @@
 {
   "variables": {
+    "MSVC_VERSION": "14.24.28314",
+    "WIN10_SDK_VERSION": "10.0.18362.0",
     "WIN_VER": "v10",
     "USE_ADDITIONAL_WINMD": "true"
   },
@@ -52,8 +54,8 @@
             "AdditionalUsingDirectories": [
               "%ProgramFiles(x86)%/Microsoft Visual Studio 14.0/VC/lib/store/references",
               "%ProgramFiles%/Microsoft Visual Studio 14.0/VC/lib/store/references",
-              "%ProgramFiles(x86)%/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/lib/x86/store/references",
-              "%ProgramFiles%/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/lib/x86/store/references"
+              "%ProgramFiles(x86)%/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/<(MSVC_VERSION)/lib/x86/store/references",
+              "%ProgramFiles%/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/<(MSVC_VERSION)/lib/x86/store/references"
             ]
           }
         }
@@ -62,10 +64,10 @@
         "msvs_settings": {
           "VCCLCompilerTool": {
             "AdditionalUsingDirectories": [
-              "%ProgramFiles%/Windows Kits/10/UnionMetadata/10.0.18362.0",
-              "%ProgramFiles%/Windows Kits/10/Include/10.0.18362.0/um",
-              "%ProgramFiles(x86)%/Windows Kits/10/UnionMetadata/10.0.18362.0",
-              "%ProgramFiles(x86)%/Windows Kits/10/Include/10.0.18362.0/um"
+              "%ProgramFiles%/Windows Kits/10/UnionMetadata/<(WIN10_SDK_VERSION)",
+              "%ProgramFiles%/Windows Kits/10/Include/<(WIN10_SDK_VERSION)/um",
+              "%ProgramFiles(x86)%/Windows Kits/10/UnionMetadata/<(WIN10_SDK_VERSION)",
+              "%ProgramFiles(x86)%/Windows Kits/10/Include/<(WIN10_SDK_VERSION)/um"
             ]
           }
         }
@@ -74,7 +76,7 @@
     "msvs_settings": {
       "VCCLCompilerTool": {
         "AdditionalOptions": ["/ZW"],
-        "DisableSpecificWarnings": [4609]
+        "DisableSpecificWarnings": [4609, 4996]
       }
     }
   }]
