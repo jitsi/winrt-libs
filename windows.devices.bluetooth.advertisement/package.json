@@ -9,6 +9,9 @@
   "license": "Apache-2.0",
   "main": "lib/main.js",
   "name": "@jitsi/windows.devices.bluetooth.advertisement",
+  "os": [
+    "win32"
+  ],
   "peerDependencies": {
     "@jitsi/windows.storage.streams": "0.2.0"
   },
@@ -16,5 +19,5 @@
     "type": "git",
     "url": "git@github.com:jitsi/winrt-libs.git"
   },
-  "version": "0.2.0"
+  "version": "0.2.1"
 }

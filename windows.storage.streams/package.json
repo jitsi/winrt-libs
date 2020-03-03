@@ -9,9 +9,12 @@
   "license": "Apache-2.0",
   "main": "lib/main.js",
   "name": "@jitsi/windows.storage.streams",
+  "os": [
+    "win32"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:jitsi/winrt-libs.git"
   },
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
