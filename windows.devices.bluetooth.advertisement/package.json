@@ -13,11 +13,11 @@
     "win32"
   ],
   "peerDependencies": {
-    "@jitsi/windows.storage.streams": "0.2.0"
+    "@jitsi/windows.storage.streams": "0.2.2"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:jitsi/winrt-libs.git"
   },
-  "version": "0.2.1"
+  "version": "0.2.2"
 }
